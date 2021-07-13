@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -745,9 +745,9 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 20px;
     margin-top: 40px;
-    margin-left:280px;
+    margin-left:150px;
 }
 
 .avatar {
@@ -1071,4 +1071,6 @@ strong {
 p {
     
     font-size: 18px;
+    
+
 }
