@@ -33,22 +33,7 @@
 	<meta name="twitter:creator" content="@lachouetteagence" />
 	<meta name="twitter:image" content="https://jean-pierre302.github.io/projet_chouette-agence/img/la-chouette-agence.webp" />
 	<meta name="twitter:image:alt" content="La chouette agence - identit&eacute; en image" />
-	<!--javascript-->
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
-	<!-- Global site tag (gtag.js) - Début Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HV0LSYC8SY"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-HV0LSYC8SY');
-	</script>
-	<!--Fin Google analytics-->
+	
 </head>
 <body>
 	<!-- Principal conteneur -->
@@ -84,7 +69,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h1 class="text-center hero-bloc-text tc-white">Parlons web design !</h1>
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
+						<p class="text-center mg-lg white tight-width-whitespace">
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en compl&eacute;tant le formulaire ci-dessous.
 						</p>
@@ -106,7 +91,7 @@
 						<div class="form-group">
 							<!-- SEO – NO attribut for -->
 							<label for="name">Nom</label>
-							<input id="name" class="form-control" required placeholder="Nom requis"/>
+							<input id="name" class="form-control" required placeholder="Nom requis" autofocus>
 						</div>
 						<div class="form-group">
 							<!-- SEO – NO attribut for -->
@@ -115,7 +100,7 @@
 						</div>
 						<div class="form-group">
 							<label for="info">Comment nous avez-vous connu ?&nbsp;</label>
-							<input id="info" list="canal" type="text" placeholder="Votre choix :" required>
+							<input id="info" list="canal" type="text" required placeholder="Cliquez pour choisir..." >
 							<datalist id="canal">
 								<option value="Notre siteInternet">
 									<option value="Campagne E-mailing">
@@ -135,7 +120,10 @@
 															<div class="col-sm-5">
 																
 																<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" title="Envoyer Formulaire" aria-label="Envoyer Formulaire">Envoyer</button>
-															</div>
+																
+																<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine bouton-cote" type="reset" title="Annuler Formulaire" aria-label="Annuler Formulaire">Annuler</button>
+
+															</div>	
 														</form>
 													</div>
 													<div class="col-sm-5 text-center">
@@ -201,9 +189,8 @@
 														<div class="col-sm-12 tc-white">
 															<!--menu déroulant pied de page-->
 															<p class="text-center white">
-																<strong>Partenaires et Recommandations<br></strong>
+																<strong>Liens vers nos partenaires et nos recommandations<br></strong>
 															</p>
-
 															<script>
 																function ChangeUrl(formulaire)
 																{(formulaire.ListeUrl.selectedIndex != 0)
@@ -214,7 +201,7 @@
 																</script>
 																<form class="text-center">
 																	<select NAME="ListeUrl" SIZE=1 onChange="ChangeUrl(this.form)">
-																		<option SELECTED VALUE="info.html">Choisir dans la liste...</option>
+																		<option SELECTED VALUE="info.html">Choisir votre lien...</option>
 																		<optgroup label="Partenaires">
 																			<option value="https://www.lyonmag.com/">Presse locale à Lyon</option>
 																			<option value="https://www.sylvainfournest.com/">SF Photographe amateur</option>
@@ -253,5 +240,21 @@
 
 										</div>
 										<!-- Fin Principal conteneur -->
+										<!--javascript-->
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+	<!-- Global site tag (gtag.js) - Début Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HV0LSYC8SY"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-HV0LSYC8SY');
+	</script>
+	<!--Fin Google analytics-->
 									</body>
 									</html>
