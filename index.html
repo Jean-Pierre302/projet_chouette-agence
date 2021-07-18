@@ -31,10 +31,10 @@
 	<meta name="twitter:image" content="https://jean-pierre302.github.io/projet_chouette-agence/img/la-chouette-agence.webp" />
 	<meta name="twitter:image:alt" content="La chouette agence - identit&eacute; en image" />
 	<link rel="shortcut icon" type="image/png" href="./img/favicon.webp"  />
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<!--police google fonts txt boutton nav-->
 	<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
 	</head>
@@ -178,8 +178,8 @@
 									<img src="img/miniature-journal-local.webp" 
 									alt="Refonte site web d&rsquo;un journal lyonnais" 
 									class="img-responsive portfolio-thumb" 
-									width="350"
-									height="270">
+									width="400"
+									height="200">
 								</a>
 								
 								<h3 class="mg-md text-center">
@@ -200,8 +200,8 @@
 								<img src="img/miniature-photographe.webp" 
 								class="img-responsive portfolio-thumb" 
 								alt="mise en place d&rsquo;une plateforme d&eacute;di&eacute; aux photographes"
-								width="350"
-								height="270">
+								width="400"
+								height="200">
 							</a>
 							<h3 class="mg-md text-center">
 								Cr&eacute;ation d&rsquo;un site web pour photographes
@@ -210,16 +210,16 @@
 								Nous avons con&ccedil;u la plateforme id&eacute;ale pour les clich&eacute;s des photographes.
 							</h4>
 						</div>
-					</div>
-					<div class="row tight-width-whitespace portfolio-row">
+					
+					
 						<div class="col-sm-5">
 							<a href="#" 
 							data-lightbox="img/site-voyageurs.webp" 
 							data-gallery-id="gallery-1" data-caption="Cr&eacute;ation d&rsquo;un site internet pour un voyageur" data-frame="snapshot-lb">
 							<img src="img/miniature-site-voyageurs.webp" 
 							class="img-responsive portfolio-thumb" alt="Elaboration et cr&eacute;ation d&rsquo;un site internet pour le retour d&rsquo;exp&eacute;rience des voyageurs"
-							width="350"
-							height="270">
+							width="400"
+							height="200">
 						</a>
 						<h3 class="mg-md text-center">
 							Cr&eacute;ation d&rsquo;un site internet pour un voyageur
@@ -236,8 +236,8 @@
 						<img src="img/miniature-agence-mariage.webp" 
 						class="img-responsive portfolio-thumb" 
 						alt="cr&eacute;ation site internet agence de mariage et de toutes leurs prestations" 
-						width="350"
-						height="270">
+						width="400"
+						height="200">
 					</a>
 					<h3 class="mg-md text-center">
 						Conception d&rsquo;un site pour une agence de mariage
@@ -255,7 +255,7 @@
 		<div class="container bloc-lg">
 			<div class="row">
 				<h2 class="mg-md text-center white">
-					Pr&ecirc;t pour redonner vie<br>à votre projet ?<br>Contactez notre &eacute;quipe !
+					Pr&ecirc;t pour redonner vie  &agrave; votre projet ?<br>Contactez notre &eacute;quipe !
 				</h2>
 				<div class="col-sm-12 text-center">
 					<a class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" href="contact.html" title="Nous contacter" aria-label="Nous contacter">Contact</a>
@@ -321,7 +321,7 @@
 							</script>
 							<form class="text-center">
 								<select NAME="ListeUrl" SIZE=1 onChange="ChangeUrl(this.form)">
-									<option SELECTED VALUE="contact.html" label="" >Choisir votre lien...</option>
+									<option SELECTED VALUE="index.html" label="Choisir votre lien..." ></option>
 									<optgroup label="Partenaires">
 										<option value="https://www.lyonmag.com/">Presse locale à Lyon</option>
 										<option value="https://www.sylvainfournest.com/">SF Photographe amateur</option>
@@ -376,5 +376,6 @@
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
+	<script src="./js/formHandler.js" defer></script>
 </body>
 </html>
