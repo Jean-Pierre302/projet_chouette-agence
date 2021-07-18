@@ -5,13 +5,11 @@
 	<title>La Chouette Agence &agrave; Lyon | Page de Contact</title>
 	<meta name="description" content="Formulaire de contact pour toute demande concernant votre Identit&eacute; num&eacute;rique: Strat&eacute;gie digitale, audit, r&eacute;f&eacute;rencement, cr&eacute;ation ou refonte de site web...">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<!--index and  crawling for google-->
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow" />
 	<meta name="google-site-verification" content="https://jean-pierre302.github.io/projet_chouette-agence/contact.html"/>
 	<meta name="reply-to" content="contact@lachouetteagence.com" />
-	<link rel="shortcut icon" type="image/png" href="./img/favicon.webp"  />
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<!--balise prevention contenu dupliqué-->
 	<link rel="canonical"  href="https://jean-pierre302.github.io/projet_chouette-agence/contact.html"/>
 	<!--balises google-->
@@ -32,6 +30,13 @@
 	<meta name="twitter:creator" content="@lachouetteagence" />
 	<meta name="twitter:image" content="https://jean-pierre302.github.io/projet_chouette-agence/img/la-chouette-agence.webp" />
 	<meta name="twitter:image:alt" content="La chouette agence - identit&eacute; en image" />
+	<link rel="shortcut icon" type="image/png" href="./img/favicon.webp"  />
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<!--police google fonts txt boutton nav-->
+	<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
 	</head>
 <body>
 	<!-- Principal conteneur -->
@@ -81,8 +86,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form
-						id="form_1"
+						<form id="form_1"
 						action="includes/form_1.php"
 						method="post"
 						novalidate>
@@ -101,158 +105,152 @@
 							<input id="info" list="canal" type="text" required placeholder="Cliquez pour choisir..." >
 							<datalist id="canal">
 								<option value="Notre siteInternet">
-									<option value="Campagne E-mailing">
-										<option value="Annuaires professionnels">
-											<option value="Publicit&eacute; Presse">
-												<option value="Publicit&eacute; Radio">
-													<option value="Prospection commerciale">
-														<option value="Recommandation">
-															<option value="R&eacute;seaux sociaux">
-																<option value="Autre canal de distribution">
-																</datalist>
-															</div>
-															<div class="form-group">	
-																<label for="message"><br>Br&egrave;ve description de votre projet, ajoutez autant de détails que nécessaire...</label>
-																<textarea id="message" class="form-control" rows="4" cols="50" required  placeholder="Message requis"></textarea>
-															</div>
-															<div class="col-sm-5">
+								<option value="Campagne E-mailing">
+								<option value="Annuaires professionnels">
+								<option value="Publicit&eacute; Presse">
+								<option value="Publicit&eacute; Radio">
+								<option value="Prospection commerciale">
+								<option value="Recommandation">
+								<option value="R&eacute;seaux sociaux">
+								<option value="Autre canal de distribution">
+							</datalist>
+						</div>
+						<div class="form-group">	
+							<label for="message"><br>Br&egrave;ve description de votre projet, ajoutez autant de détails que nécessaire...</label>
+								<textarea id="message" class="form-control" rows="4" cols="50" required  placeholder="Message requis"></textarea>
+						</div>
+						<div class="col-xs-5">
 																
-																<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" title="Envoyer Formulaire" aria-label="Envoyer Formulaire">Envoyer</button>
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" title="Envoyer Formulaire" aria-label="Envoyer Formulaire">Envoyer</button>
 																
-																<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine bouton-cote" type="reset" title="Annuler Formulaire" aria-label="Annuler Formulaire">Annuler</button>
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine bouton-cote" type="reset" title="Annuler Formulaire" aria-label="Annuler Formulaire">Annuler</button>
 
-															</div>	
-														</form>
-													</div>
-													<div class="col-sm-5 text-center">
-														<address>
-															<p>
-																<a class="mg-md text-center tc-white" href="mailto:contact@lachouetteagence.com"
-																title="Envoyer E-mail" aria-label="Envoyer E-mail">
-															contact@lachouetteagence.com</a></p>
-															2 place Sathonay 69001 Lyon<br></p>
-															Ouvert de 9h à 18h, du lundi au vendredi</p><br>
-														</address>
-														<div class="map">
-															<iframe class="map-frame" width="350" height="280" src="https://maps.google.com/maps?width=300&amp;height=350&amp;hl=en&amp;coord=45.7695133540645,4.830221633892507&amp;q=2%20place%20Sathonay%2069001%20Lyon+(D%C3%A9veloppeur%20Web)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" aria-label="Carte Map : 2 place sathonay 69001 lyon"></iframe>
-														</div>
-													</div>
-												</div>
+						</div>	
+						</form>
+					</div>
+						<div class="col-sm-6 text-center">
+							<address>
+								<p><a class="mg-md text-center tc-white" href="mailto:contact@lachouetteagence.com"
+									title="Envoyer E-mail" aria-label="Envoyer E-mail">
+									<br>
+									contact@lachouetteagence.com</a></p>
+									2 place Sathonay 69001 Lyon<br></p>
+									Ouvert de 9h à 18h, du lundi au vendredi</p><br>
+							</address>
+						<div class="map">
+							<iframe class="map-frame" width="350" height="280" src="https://maps.google.com/maps?width=300&amp;height=350&amp;hl=en&amp;coord=45.7695133540645,4.830221633892507&amp;q=2%20place%20Sathonay%2069001%20Lyon+(D%C3%A9veloppeur%20Web)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" aria-label="Carte Map : 2 place sathonay 69001 lyon"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin bloc-7 -->
+		<!-- Début bloc-8 Footer-->
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center white">
+							<strong>La chouette agence - Agence web design bas&eacute;e &agrave; Lyon<br></strong></p>
+								<!-- Best Practices - Target blank and rel noopener noreferrer ! -->
+									<div class="row row-no-gutters social">
+										<div class="col-xs-3">
+											<div class="text-center social">
+												<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Twitter" aria-label="Retrouvez-nous sur Twitter">
+													<span class="fa fa-twitter icon-md"></span>
+												</a>
 											</div>
 										</div>
-										<!--Fin bloc-7 -->
-										<!-- Début bloc-8 Footer-->
-										<!-- Début bloc-8 Footer-->
-										<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-											<div class="container bloc-sm">
-												<div class="row">
-													<div class="col-sm-12">
-														<p class="text-center white">
-															<strong>La chouette agence - Agence web design bas&eacute;e &agrave; Lyon<br></strong>
-														</p>
-														<div class="row row-no-gutters social">
-															<div class="col-sm-3">
-																<div class="text-center social">
-																	<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Twitter" aria-label="Retrouvez-nous sur Twitter">
-																		<span class="fa fa-twitter icon-md"></span>
-																	</a>
-																</div>
-															</div>
-															<div class="col-sm-3">
-																<div class="text-center social">
-																	<!-- Best Practices - Target blank and rel noopener noreferrer ! -->
-																	<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Facebook" aria-label="Retrouvez-nous sur Facebook">
-																		<span class="fa fa-facebook icon-md"></span>
-																	</a>
-																</div>
-															</div>
-															<div class="col-sm-3">
-																<div class="text-center social">
-																	<!-- Best Practices - Target blank and rel noopener noreferrer ! -->
-																	<a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Dribble" aria-label="Retrouvez-nous sur Dribble">
-																		<span class="fa fa-dribbble icon-md"></span>
-																	</a>
-																</div>
-															</div>
-															<div class="col-sm-3">
-																<div class="text-center social">
-																	<!-- Best Practices - Target blank and rel noopener noreferrer ! -->
-																	<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Instagram" aria-label="Retrouvez-nous sur Instagram">
-																		<span class="fa fa-instagram icon-md"></span>
-																	</a>
-																</div>
-															</div>
-														</div>
-														<br>
-														<div class="col-sm-12 tc-white">
-															<!--menu déroulant pied de page-->
-															<p class="text-center white">
-																<strong>Liens vers nos partenaires et nos recommandations<br></strong>
-															</p>
-															<script>
-																function ChangeUrl(formulaire)
-																{(formulaire.ListeUrl.selectedIndex != 0)
-																	{var url ;
-																		url = formulaire.ListeUrl.options[formulaire.ListeUrl.selectedIndex].value;
-																		window.open(url,'_blank');}
-																	}
-																</script>
-																<form class="text-center">
-																	<select NAME="ListeUrl" SIZE=1 onChange="ChangeUrl(this.form)">
-																		<option SELECTED VALUE="info.html">Choisir votre lien...</option>
-																		<optgroup label="Partenaires">
-																			<option value="https://www.lyonmag.com/">Presse locale à Lyon</option>
-																			<option value="https://www.sylvainfournest.com/">SF Photographe amateur</option>
-																			<option value="https://www.lesvisiteursdumonde.com/">Les Visiteurs du monde</option>
-																			<option value="https://www.monjolijour.com/">Agence de Mariage</option>
-																			<option value="https://avosfourchettes.com/">Restaurant A vos Fourchettes</option>
-																		</optgroup>
-																		<optgroup label="Annuaires Généralistes">
-																			<option value="https://www.webfrance.com/">Webfrance</option>
-																			<option value="https://www.webwiki.fr/">Webwiki</option>
-																			<option value="https://www.1two.org/">1two</option>
-																		</optgroup>
-																		<optgroup label="Annuaires du Web">
-																			<option value="https://www.lafabriquedunet.fr/agences-web/">Annuaire des Agences Web</option>				
-																		</optgroup>
-																		<optgroup label="Annuaires locaux">
-																			<option value="https://www.lyon-69.fr/">Entreprises Lyonaises</option>
-																			<option value="https://www.123pages.fr/">123pages.fr</option>
-																			<option value="https://fr.kompass.com/">Kompass</option>
-																			<option value="https://www.justacote.com/resultats.php?quoi=&ou=Lyon">Justacote</option>	 
-																		</optgroup>
-																	</select>
-																</form>
-															</div>		
-														</div>
-													</div>	
-												</div>
-											</footer>
-											<!-- Fin bloc-8 Footer -->
-
-											<!-- ScrollToTop Button -->
-											<button class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" aria-label="Haut">
-												<span class="fa fa-chevron-up"></span>
-											</button>
-											<!-- ScrollToTop Button END-->
-
+										<div class="col-xs-3">
+											<div class="text-center social">
+												<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Facebook" aria-label="Retrouvez-nous sur Facebook">
+													<span class="fa fa-facebook icon-md"></span>
+												</a>
+											</div>
 										</div>
-										<!-- Fin Principal conteneur -->
-										<!--javascript-->
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+										<div class="col-xs-3">
+											<div class="text-center social">
+												<a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Dribble" aria-label="Retrouvez-nous sur Dribble">
+													<span class="fa fa-dribbble icon-md"></span>
+												</a>
+											</div>
+										</div>
+										<div class="col-x3-3">
+											<div class="text-center social">
+												<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Retrouvez-nous sur Instagram" aria-label="Retrouvez-nous sur Instagram">
+													<span class="fa fa-instagram icon-md"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<br>
+								<div class="col-sm-12 tc-white">
+								<!--menu déroulant pied de page-->
+									<p class="text-center white">
+										<strong>Liens vers nos partenaires et nos recommandations<br></strong>
+									</p>
+										<!--Script pout menu partenaires et recommendations pour alléger visuel pied de page-->
+										<script>
+										function ChangeUrl(formulaire)
+										{(formulaire.ListeUrl.selectedIndex != 0)
+										{var url ;
+										url = formulaire.ListeUrl.options[formulaire.ListeUrl.selectedIndex].value;
+										window.open(url,'_blank');}
+										}
+										</script>
+									<form class="text-center">
+										<select NAME="ListeUrl" SIZE=1 onChange="ChangeUrl(this.form)">
+											<option SELECTED VALUE="info.html">Choisir votre lien...</option>
+												<optgroup label="Partenaires">
+													<option value="https://www.lyonmag.com/">Presse locale à Lyon</option>
+													<option value="https://www.sylvainfournest.com/">SF Photographe amateur</option>
+													<option value="https://www.lesvisiteursdumonde.com/">Les Visiteurs du monde</option>
+													<option value="https://www.monjolijour.com/">Agence de Mariage</option>
+													<option value="https://avosfourchettes.com/">Restaurant A vos Fourchettes</option>
+												</optgroup>
+												<optgroup label="Annuaires Généralistes">
+													<option value="https://www.webfrance.com/">Webfrance</option>
+													<option value="https://www.webwiki.fr/">Webwiki</option>
+													<option value="https://www.1two.org/">1two</option>
+												</optgroup>
+													<optgroup label="Annuaires du Web">
+													<option value="https://www.lafabriquedunet.fr/agences-web/">Annuaire des Agences Web</option>				
+												</optgroup>
+												<optgroup label="Annuaires locaux">
+													<option value="https://www.lyon-69.fr/">Entreprises Lyonaises</option>
+													<option value="https://www.123pages.fr/">123pages.fr</option>
+													<option value="https://fr.kompass.com/">Kompass</option>
+													<option value="https://www.justacote.com/resultats.php?quoi=&ou=Lyon">Justacote</option>	 
+												</optgroup>
+										</select>
+									</form>
+								</div>		
+							</div>
+						</div>	
+					</div>
+		</footer>
+		<!-- Fin bloc-8 Footer -->
+		<!-- ScrollToTop Button -->
+		<button class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" aria-label="Haut">
+		<span class="fa fa-chevron-up"></span></button>
+		<!-- ScrollToTop Button END-->
+	</div>										
+	<!-- Fin conteneur principal-->
 	<!-- Global site tag (gtag.js) - Début Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HV0LSYC8SY"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-
 		gtag('config', 'G-HV0LSYC8SY');
 	</script>
 	<!--Fin Google analytics-->
-									</body>
-									</html>
+	<!--javascript conteneur principal-->
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+</body>
+</html>

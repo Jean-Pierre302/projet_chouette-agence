@@ -705,6 +705,13 @@ p {
     margin: auto auto auto auto;
 }
 
+blockquote{
+    font-size:20px;
+    color:#575757;
+    font-style:italic;
+    border:none;
+}
+
 h2 {
     font-size: 21px;
     line-height: 1.4em;
@@ -1084,6 +1091,7 @@ form {
 .bouton-cote {
     position: absolute;
     left: 100%;
-    top:22%;
-    margin-left: 75px;
+    top:19%;
+    margin-left: 40px;
 }
+
