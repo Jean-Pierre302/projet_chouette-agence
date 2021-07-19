@@ -2,12 +2,13 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>La chouette agence | cr&eacute;ation et refonte de site internet - Lyon</title>
 	<meta name="description" content="Penser sa communication Digitale autrement ! Audit, R&eacute;f&eacute;rencement, Cr&eacute;ation, Refonte de site Web, une approche globale diff&eacute;rente de vos projets num&eacute;riques.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<!--index and  crawling for google-->
-	<meta name="robots" content="index, follow" />
-	<meta name="googlebot" content="index,follow" />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<meta name="google-site-verification" content="https://jean-pierre302.github.io/projet_chouette-agence/index.html"/>
 	<meta name="reply-to" content="contact@lachouetteagence.com" />
 	<!--balise prevention contenu dupliqué-->
@@ -33,10 +34,10 @@
 	<link rel="shortcut icon" type="image/png" href="./img/favicon.webp"  />
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<!--police google fonts txt boutton nav-->
-	<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<!--<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">-->
 	</head>
 <body>
 	<!-- début conteneur principal-->
@@ -92,7 +93,7 @@
 				<div class="container bloc-md">
 					<div class="row">
 						<h2 class="col-sm-12 text-center">
-							<strong>La chouette agence est une agence de web design qui aide<br>&nbsp;les entreprises &agrave; devenir attractives et visibles sur Internet.</strong>
+							<strong>La chouette agence est une agence de web design<br> qui aide les entreprises &agrave; devenir attractives et visibles sur Internet.</strong>
 						</h2>
 					</div>
 					<div class="row voffset-lg med-width-whitespace">
@@ -133,7 +134,7 @@
 					<aside class="row voffset-lg voffset">
 						<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 							<div class="col-sm-12 text-center">
-								<blockquote>"La chouette agence est une exellente agence web ! Les<br>&nbsp;webdesigners ont r&eacute;ussi &agrave; capturer l&rsquo;essence de notre<br>&nbsp;entreprise et &agrave; l&rsquo;int&eacute;grer &agrave; notre site. Cela nous a aid&eacute; &agrave; <br>doubler nos ventes en ligne &agrave; Lyon"</blockquote>
+								<blockquote>"La chouette agence est une excellente agence web ! Les<br>&nbsp;webdesigners ont r&eacute;ussi &agrave; capturer l&rsquo;essence de notre<br>&nbsp;entreprise et &agrave; l&rsquo;int&eacute;grer &agrave; notre site. Cela nous a aid&eacute; &agrave; <br>doubler nos ventes en ligne &agrave; Lyon"</blockquote>
 								
 								</div>
 								<p>Maxime Guibard, PDG de &Agrave; vos Fourchettes</p>
@@ -151,9 +152,13 @@
 									Nous souhaitons aider les entreprises de la r&eacute;gion Lyonnaise &agrave; se d&eacute;velopper et &agrave; conna&icirc;tre le succ&egrave;s. Nous travaillons pour aider les entreprises locales &agrave; attirer de nouveaux clients.<br>
 								</h2>
 								<p class="text-center white">
-									Nous aimons collaborer avec des entrepreneurs cr&eacute;atifs et des entreprises locales, qu&rsquo;elles aient besoin de cr&eacute;er un site de A &agrave; Z ou de donner un coup de jeune &agrave; leur site. Que vous ayez besoin d&rsquo;une identit&eacute; visuelle compl&egrave;te ou d&rsquo;une refonte de votre site, n&rsquo;h&eacute;sitez pas &agrave; nous contacter. Nous travaillerons ensemble pour cr&eacute;er des sites beaux et bien structur&eacute;s, qui seront facilement trouvable sur les moteurs de recherche. <br><br>
-									<a class="ltc-white bold-link" href="contact.html" title="Nous contacter" aria-label="Nous contacter">Contactez notre &eacute;quipe</a>
-								</p>
+									<br>Nous aimons collaborer avec des entrepreneurs cr&eacute;atifs et des entreprises locales, qu&rsquo;elles aient besoin de cr&eacute;er un site de A &agrave; Z ou de donner un coup de jeune &agrave; leur site. Que vous ayez besoin d&rsquo;une identit&eacute; visuelle compl&egrave;te ou d&rsquo;une refonte de votre site, n&rsquo;h&eacute;sitez pas &agrave; nous contacter. Nous travaillerons ensemble pour cr&eacute;er des sites beaux et bien structur&eacute;s, qui seront facilement trouvables sur les moteurs de recherche. <br>
+									</p>
+										<!--<a class="mg-md text-center tc-white" href="contact.html" title="Nous contacter" aria-label="Nous contacter">Contactez notre &eacute;quipe</a>-->
+									<div class="text-center">
+									<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
+									title="Contactez notre &eacute;quipe" aria-label="Nous contacter">Contactez notre &eacute;quipe</a>
+							</div>
 							</div>
 						</div>
 					</div>
@@ -360,6 +365,11 @@
 	</div>
 	</main>
 	<!-- Fin conteneur principal-->
+	<!--javascript conteneur principal-->
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<!-- Global site tag (gtag.js) - Début Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HV0LSYC8SY"></script>
 	<script>
@@ -369,13 +379,6 @@
 		gtag('config', 'G-HV0LSYC8SY');
 	</script>
 	<!--Fin Google analytics-->
-	<!--javascript conteneur principal-->
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
-	<script src="./js/formHandler.js" defer></script>
+	<script src="./js/gmaps.js"></script>	
 </body>
 </html>
